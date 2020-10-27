@@ -1,0 +1,147 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.mt-admin-settings .in-tabs:not(.active){display: none;}
+.capability-type{
+    display: none;
+}
+#cpt-form input[type='text'],#cpt-form textArea{
+    min-width: 50%;
+}
+td.supports-checkbox fieldset label{
+    margin-right: 10px !important;
+}
+.supports-checkbox label input{
+    margin-right: 0px !important;
+}
+
+.mt-admin-settings .form-table th,.mt-admin-settings .form-table td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.mtk-role-list .users{
+    width: 15%; 
+}
+.mtk-role-list .cap{
+    width: 10%; 
+}
+
+
+.mtk-table-list .cap a{
+    float: left;
+}
+.mtk-table-list td.action{
+    width: 195px;
+}
+.mtk-table-list td.action .button{
+    margin-right: 5px;
+}
+
+#capabilities-content{
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 1px solid lightblue;
+
+    margin: 30px 0;
+
+
+}
+.filter-nav a{
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+.filter-nav a.active{
+    text-decoration: underline;
+}
+
+
+.policy-header{
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+#policy-title{
+    width: 75%; 
+}
+#add-policy-rule{
+    width: 20%; 
+}
+
+#mt-sub-entities{
+    display:none;
+}
+.rules-item{
+    padding: 10px;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+.rules-item > div{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+.rules-item > div p{
+    margin: 0;
+    width: 70px;
+}
+.rules-item > div select{
+    margin-right: 10px;
+}
+
+.rules-clonable{
+    display: none;
+}
+.substract-icon{
+    color: #555d66;
+    border-color: #b5bcc2;
+    background-color: #fff;
+    position: relative;
+    transition: none;
+    cursor: pointer;
+
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    border: #b3a4a4c7 solid 1px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+
+.substract-icon:before {
+    font-family: dashicons;
+    display: inline-block;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+    speak: none;
+    text-decoration: inherit;
+    text-transform: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    text-align: center;
+    content: "\f460";
+}
+.substract-icon:hover{
+
+    background: #f7efef;
+    border-color: #a10000;
+    color: #dc3232;
+
+}
+
